@@ -1,0 +1,50 @@
+<chromosome id="14446739" primary-parent-id="14446103"><neuron id="14444232" type="in" activation="linear"/>
+<neuron id="14444233" type="in" activation="linear"/>
+<neuron id="14444234" type="in" activation="linear"/>
+<neuron id="14444235" type="in" activation="linear"/>
+<neuron id="14444236" type="in" activation="linear"/>
+<neuron id="14444237" type="in" activation="linear"/>
+<neuron id="14444238" type="in" activation="linear"/>
+<neuron id="14444239" type="in" activation="linear"/>
+<neuron id="14444240" type="out" activation="sigmoid"/>
+<connection id="14444241" src-id="14444232" dest-id="14444240" weight="5.7459398827464945"/>
+<connection id="14444242" src-id="14444233" dest-id="14444240" weight="-9.966148913367736"/>
+<connection id="14444244" src-id="14444235" dest-id="14444240" weight="10.0"/>
+<connection id="14444245" src-id="14444236" dest-id="14444240" weight="-3.077405338358676"/>
+<connection id="14444246" src-id="14444237" dest-id="14444240" weight="2.9995468722834513"/>
+<connection id="14444247" src-id="14444238" dest-id="14444240" weight="-4.292208713318365"/>
+<neuron id="14444249" type="out" activation="sigmoid"/>
+<connection id="14444250" src-id="14444232" dest-id="14444249" weight="5.169211914644308"/>
+<connection id="14444251" src-id="14444233" dest-id="14444249" weight="-0.6095172838934088"/>
+<connection id="14444252" src-id="14444234" dest-id="14444249" weight="1.3247632536238323"/>
+<connection id="14444254" src-id="14444236" dest-id="14444249" weight="-2.8676276926472672"/>
+<connection id="14444255" src-id="14444237" dest-id="14444249" weight="0.15218220705257912"/>
+<connection id="14444257" src-id="14444239" dest-id="14444249" weight="-4.794432046213051"/>
+<neuron id="14444454" type="hid" activation="sigmoid"/>
+<connection id="14444456" src-id="14444454" dest-id="14444240" weight="-2.12925907927711"/>
+<connection id="14444541" src-id="14444249" dest-id="14444249" weight="1.1739043514909266"/>
+<neuron id="14444552" type="hid" activation="sigmoid"/>
+<connection id="14444553" src-id="14444235" dest-id="14444552" weight="4.75576681504741"/>
+<connection id="14444554" src-id="14444552" dest-id="14444249" weight="5.850251923413811"/>
+<neuron id="14444555" type="hid" activation="sigmoid"/>
+<connection id="14444556" src-id="14444238" dest-id="14444555" weight="-4.072987054013581"/>
+<connection id="14444557" src-id="14444555" dest-id="14444249" weight="-6.200740495594264"/>
+<neuron id="14444657" type="hid" activation="sigmoid"/>
+<connection id="14444658" src-id="14444239" dest-id="14444657" weight="4.208116664194321"/>
+<connection id="14444659" src-id="14444657" dest-id="14444240" weight="3.5342495442510544"/>
+<neuron id="14444764" type="hid" activation="sigmoid"/>
+<connection id="14444765" src-id="14444234" dest-id="14444764" weight="-1.0294107143708073"/>
+<connection id="14444766" src-id="14444764" dest-id="14444454" weight="-3.647299534785022"/>
+<connection id="14444947" src-id="14444234" dest-id="14444657" weight="1.863936804060986"/>
+<connection id="14444949" src-id="14444236" dest-id="14444657" weight="1.6013727912073157"/>
+<connection id="14444951" src-id="14444555" dest-id="14444240" weight="-0.8207998275756836"/>
+<connection id="14444957" src-id="14444232" dest-id="14444657" weight="2.2617393519557303"/>
+<connection id="14445042" src-id="14444240" dest-id="14444657" weight="3.9440897684406684"/>
+<connection id="14445043" src-id="14444237" dest-id="14444657" weight="3.8213616641640327"/>
+<connection id="14445047" src-id="14444233" dest-id="14444454" weight="-0.6938704365629484"/>
+<connection id="14445050" src-id="14444236" dest-id="14444764" weight="-5.127635836662642"/>
+<connection id="14445158" src-id="14444764" dest-id="14444240" weight="-3.175344876550598"/>
+<connection id="14445163" src-id="14444249" dest-id="14444552" weight="0.4872857332229614"/>
+<connection id="14445385" src-id="14444764" dest-id="14444555" weight="-2.393813950429735"/>
+<connection id="14445502" src-id="14444240" dest-id="14444764" weight="-3.0046545326682734"/>
+</chromosome>

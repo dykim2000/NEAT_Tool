@@ -1,0 +1,13 @@
+Simple script to plot the network topology.
+
+Requires:
+
+  graphviz 
+
+Run
+  pip install graphviz 
+
+
+Try: 
+
+  ./anji2dot.py ../anji_2_01/db/chromosome/chromosome16583.xml 

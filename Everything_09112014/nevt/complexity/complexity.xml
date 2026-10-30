@@ -1,0 +1,134 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./graphComplexityRefresh.xsl" ?>
+<!DOCTYPE run SYSTEM "../run.dtd">
+<run name="testrun" timedatestamp="[20220928 13:13:13 - 20220928 13:13:26]" >
+<search-parameters>
+<population-size>100</population-size>
+<generations>120</generations>
+</search-parameters>
+<generation id="1" >
+<fitness>
+<max>272</max>
+<min>98</min>
+<avg>174</avg>
+</fitness>
+<complexity>
+<champ>100</champ>
+<max>115</max>
+<min>93</min>
+<avg>103.43</avg>
+</complexity>
+<specie id="14454148" count="17">
+<chromosome id="14454148" fitness="159" />
+<chromosome id="14458167" fitness="272" />
+<chromosome id="14458173" fitness="188" />
+<chromosome id="14458179" fitness="199" />
+<chromosome id="14458185" fitness="240" />
+<chromosome id="14458191" fitness="175" />
+<chromosome id="14458197" fitness="195" />
+<chromosome id="14458203" fitness="167" />
+<chromosome id="14458209" fitness="176" />
+<chromosome id="14458215" fitness="221" />
+<chromosome id="14458221" fitness="233" />
+<chromosome id="14458227" fitness="122" />
+<chromosome id="14458233" fitness="202" />
+<chromosome id="14458239" fitness="169" />
+<chromosome id="14458245" fitness="181" />
+<chromosome id="14458251" fitness="214" />
+<chromosome id="14458257" fitness="156" />
+</specie>
+<specie id="14455323" count="17">
+<chromosome id="14455323" fitness="164" />
+<chromosome id="14458168" fitness="127" />
+<chromosome id="14458174" fitness="158" />
+<chromosome id="14458180" fitness="135" />
+<chromosome id="14458186" fitness="146" />
+<chromosome id="14458192" fitness="177" />
+<chromosome id="14458198" fitness="139" />
+<chromosome id="14458204" fitness="161" />
+<chromosome id="14458210" fitness="141" />
+<chromosome id="14458216" fitness="121" />
+<chromosome id="14458222" fitness="136" />
+<chromosome id="14458228" fitness="165" />
+<chromosome id="14458234" fitness="185" />
+<chromosome id="14458240" fitness="147" />
+<chromosome id="14458246" fitness="155" />
+<chromosome id="14458252" fitness="143" />
+<chromosome id="14458258" fitness="181" />
+</specie>
+<specie id="14455338" count="17">
+<chromosome id="14455338" fitness="146" />
+<chromosome id="14458169" fitness="104" />
+<chromosome id="14458175" fitness="207" />
+<chromosome id="14458181" fitness="176" />
+<chromosome id="14458187" fitness="149" />
+<chromosome id="14458193" fitness="144" />
+<chromosome id="14458199" fitness="174" />
+<chromosome id="14458205" fitness="123" />
+<chromosome id="14458211" fitness="147" />
+<chromosome id="14458217" fitness="126" />
+<chromosome id="14458223" fitness="176" />
+<chromosome id="14458229" fitness="170" />
+<chromosome id="14458235" fitness="152" />
+<chromosome id="14458241" fitness="161" />
+<chromosome id="14458247" fitness="142" />
+<chromosome id="14458253" fitness="182" />
+<chromosome id="14458259" fitness="155" />
+</specie>
+<specie id="14455414" count="17">
+<chromosome id="14455414" fitness="132" />
+<chromosome id="14458170" fitness="158" />
+<chromosome id="14458176" fitness="177" />
+<chromosome id="14458182" fitness="122" />
+<chromosome id="14458188" fitness="154" />
+<chromosome id="14458194" fitness="146" />
+<chromosome id="14458200" fitness="193" />
+<chromosome id="14458206" fitness="165" />
+<chromosome id="14458212" fitness="143" />
+<chromosome id="14458218" fitness="98" />
+<chromosome id="14458224" fitness="169" />
+<chromosome id="14458230" fitness="186" />
+<chromosome id="14458236" fitness="177" />
+<chromosome id="14458242" fitness="145" />
+<chromosome id="14458248" fitness="188" />
+<chromosome id="14458254" fitness="196" />
+<chromosome id="14458260" fitness="152" />
+</specie>
+<specie id="14456725" count="16">
+<chromosome id="14456725" fitness="195" />
+<chromosome id="14458171" fitness="188" />
+<chromosome id="14458177" fitness="157" />
+<chromosome id="14458183" fitness="185" />
+<chromosome id="14458189" fitness="217" />
+<chromosome id="14458195" fitness="224" />
+<chromosome id="14458201" fitness="205" />
+<chromosome id="14458207" fitness="206" />
+<chromosome id="14458213" fitness="208" />
+<chromosome id="14458219" fitness="199" />
+<chromosome id="14458225" fitness="211" />
+<chromosome id="14458231" fitness="211" />
+<chromosome id="14458237" fitness="226" />
+<chromosome id="14458243" fitness="192" />
+<chromosome id="14458249" fitness="170" />
+<chromosome id="14458255" fitness="202" />
+</specie>
+<specie id="14457311" count="16">
+<chromosome id="14457311" fitness="174" />
+<chromosome id="14458172" fitness="186" />
+<chromosome id="14458178" fitness="219" />
+<chromosome id="14458184" fitness="204" />
+<chromosome id="14458190" fitness="166" />
+<chromosome id="14458196" fitness="169" />
+<chromosome id="14458202" fitness="188" />
+<chromosome id="14458208" fitness="248" />
+<chromosome id="14458214" fitness="220" />
+<chromosome id="14458220" fitness="201" />
+<chromosome id="14458226" fitness="211" />
+<chromosome id="14458232" fitness="142" />
+<chromosome id="14458238" fitness="189" />
+<chromosome id="14458244" fitness="176" />
+<chromosome id="14458250" fitness="201" />
+<chromosome id="14458256" fitness="165" />
+</specie>
+</generation>
+</run>

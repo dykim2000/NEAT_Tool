@@ -1,0 +1,30 @@
+To run:
+
+1. Install eclipse IDE 
+
+2. Import the entire Everything_09112014 folder in Eclipse
+
+3. Compile and run (main file is EvaluateIt)
+
+ - if display does not work, or seems stuck, try
+
+   Thread.sleep(200); 
+
+   instead of Thread.sleep(20); in Display.java (line 102)
+
+4. To train, run the Driver class. 
+
+5. Input mapping: 
+
+  - the input neurons in the chromosome have the following order:
+
+    input[0] = arm.theta1/90;		// arm angles
+    input[1] = arm.theta2/90; 
+    input[2] = r_d/260;			// distance to object
+    input[3] = r_degree_theta / 90;	// angle to object	
+    input[4] = r_d_pick/260;		// distance to tool handle
+    input[5] = r_degree_pick/90;	// angle to tool handle
+    input[6] = 0;			// arm limiter 1
+    input[7] = 0;			// arm limiter 2
+
+  - output : the two arm angles
